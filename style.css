@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    color:black
+}
+#menu ul{
+    list-style-type: none;
+    text-align: left;
+    background: black;
+}
+#menu ul li{
+    color:cornsilk;
+    display: inline-table;
+    width:120px;
+    height:40px;
+    line-height: 40px;
+    position: relative;
+}
+#menu ul li a{
+    color:cornsilk;
+    text-decoration:none ;
+    display: block;
+    m
+
+}
+#menu ul li a:hover{
+    background: aquamarine;
+    color:black;
+}
+#menu ul li > .menuNV{
+    display:none;
+    position: absolute;
+    top:0px;
+    
+}
+#menu ul li:hover .menuNV{
+    display: block;
+    width: inherit;
+}
