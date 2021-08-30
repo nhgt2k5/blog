@@ -4,26 +4,39 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
         <title>Blog</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     </head>
     <body>
         <header>
-            <div id="menu">
-                <ul>
-                    <li><a href="#">TRANG CHỦ</a></li>
-                    <li>
-                        <a href="#">NHÂN VẬT</a>
-                        <ul class="menuNV">
-                            <li><a href="youtube.com"></a>Miku</li>
-                            <li><a href="#"></a>Ruka</li>
-                            <li><a href="#"></a>Chrome-chan</li>
-                            <li><a href="#"></a>Earth-chan</li>
-                        </ul>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Menu</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Trang chủ <span class="sr-only">(current)</span></a>
                     </li>
-                    <li><a href="#">XEM NHIỀU</a></li>
-                    <li><a href="#">HỖ TRỢ</a></li>
-                </ul>
-            </div>
-            <h1>Hello</h1>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Char</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Xem nhiều</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown link
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
         </header>
     </body>
 </html>
